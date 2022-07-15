@@ -1,0 +1,93 @@
+.col-lg-10,
+.col-lg-2 {
+  margin: 0;
+  padding: 0;
+}
+
+.fa2x {
+  font-size: 20px;
+  padding: 6px;
+}
+
+a {
+  text-decoration: none;
+}
+.sidemenu a {
+  color: white;
+  font-size: 18px;
+}
+.sidemenu li {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.sidemenu li:hover {
+  background-color: #fff;
+}
+.sidemenu li:hover a {
+  color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sidemenu {
+    position: absolute;
+    background-color: red;
+    top: 160px;
+    display: none;
+    width: 100%;
+  }
+  .fa2x {
+    font-size: 20px;
+    padding: 6px;
+  }
+  .sidemenu li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #dashboard {
+    display: block !important;
+    text-align: center;
+  }
+  .disabled {
+    display: none;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .sidemenu {
+    position: absolute;
+    background-color: red;
+    top: 124px;
+    display: none;
+    width: 100%;
+  }
+  .fa2x {
+    font-size: 20px;
+    padding: 6px;
+  }
+  .sidemenu li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .disabled {
+    display: none;
+  }
+
+  h1 {
+    color: blue;
+    background-color: black;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .btnn {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}

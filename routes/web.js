@@ -1,0 +1,13 @@
+import Express from "express";
+import coding from "../controllers/control.js";
+const router = Express.Router();
+router.get("/", coding.home);
+router.get("/home", coding.home);
+router.get("/service", coding.service);
+router.get("/about", coding.about);
+router.get("/account", coding.account);
+router.get("/earning", coding.earning);
+router.get("/project", coding.project);
+router.get("/support", coding.support);
+router.get("/team", coding.team);
+export default router;
