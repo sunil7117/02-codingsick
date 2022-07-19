@@ -8,6 +8,4 @@ app.use(Express.static(join(process.cwd(), "node_modules")));
 app.use(Express.static(join(process.cwd(), "public")));
 app.use(router);
 
-app.listen(port, () => {
-  console.log(`server at started http://localhost:${port}`);
-});
+app.listen();
